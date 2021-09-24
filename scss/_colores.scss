@@ -1,0 +1,101 @@
+/* Colores de la página */
+$colornegro: black;
+$color1: #f3eeea;
+$color2: #9e8e94;
+$color3: #ef8225c4;
+$color4: #f7d097;
+$color5: #eea435;
+$color6: #ffa262;
+$color7: #f1b458e0;
+$color8: #d69b43c9;
+$color9: grey;
+$color10: #fff;
+$color11: #7a7a7a;
+$color12: #6a6a6a;
+$color13: #2fb4cc;
+$color14: #cc832f;
+$color15: #dab988;
+$color16: #f59b23d6;
+$color17: #cc8226;
+
+
+
+body {
+    background-color: $color1;
+}
+
+
+header {
+    background-color: $color2;
+    
+}
+.encabezado-titulo h1{
+    color: $color3 ;
+}
+
+
+.encabezado-menu a{
+    color: $color4;
+}
+
+.encabezado-menu a:hover {
+    background-color: $color5; }
+
+    h3 {
+        color: $color6;
+    }
+    footer{
+        background-color: $color2;
+        
+    }
+    
+    
+.tituloProductos{
+    color:$color8 ;
+}
+.Productos-destacados-card-titulo h5{
+        color:$color8 ;
+    }
+.Productos-destacados-card-parrafo p {
+        color: $color9;
+       
+    }
+    .title-cards{
+     color: $color6;
+    }
+    .card{
+        background:$color10;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        
+    }
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+      
+    }
+   
+    
+    .card .contenido-card h3{
+        color: $color11;
+    }
+    .card .contenido-card p{
+       
+        color: $color12;
+       
+    }
+    .card .contenido-card a{
+      
+        color: $color13;
+        border: 1px solid $color14;
+      
+    }
+    .card .contenido-card a:hover{
+        background: $color15;
+        color: $color10;
+    }
+  
+    .boton{
+        background-color: $color16;
+        border-color: $color17;
+    }
+
+  

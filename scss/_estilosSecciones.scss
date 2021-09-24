@@ -1,0 +1,76 @@
+ /* Estilo propio de las secciones*/
+ /* Mapa */
+ $headdings:(
+    h1: 4em,
+    h2: 1.5em,
+    h3: 2em,
+    h4: 1em,
+    h5: 0.75em,
+    h6: 0.35em,
+);
+ $h1: map-get($headdings, h1);
+ $h2: map-get($headdings, h2);
+ $h3: map-get($headdings, h3);
+ $h4: map-get($headdings, h4);
+ $h5: map-get($headdings, h5);
+ $h6: map-get($headdings, h6);
+  
+ /* Imagen de las portadas */
+ .main-portada-imagen img{
+     width: 100%;
+     height: auto;
+ }
+/* Titulo de las secciones */
+.tituloProductos h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+    /*Cards*/
+    .columnas-card{
+        
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 50px;
+
+    }
+
+    
+    .card{
+        width: 18em;
+        height: 40em;
+        
+        border-radius: 6px;
+        overflow: hidden;
+ 
+    
+        transition: all 400ms ease-out;
+        cursor: default;
+    }
+    
+    .card:hover{
+       
+        transform: translateY(-3%);
+    }
+    .card-body{
+        display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: space-between;
+     flex-wrap: nowrap;
+     align-items: center;
+    }
+   
+    .boton-estilo{
+        display: flex;
+        flex-direction: row;
+      justify-content: center;
+    }
+
+ 
+    
+      
+      

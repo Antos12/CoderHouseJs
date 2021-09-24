@@ -1,0 +1,25 @@
+/* Este archivo lo voy a utilizar para definir extends y mixins */
+.dimensionescard{
+    width: 100%;
+    height: 100%;
+}
+
+@mixin generador($padding){
+    padding:$padding;
+    
+}
+.title-cards{
+   
+ @include generador(20px);
+     
+}
+
+.col-12{
+          @include generador(0px);
+      } 
+.formulario{
+      @include generador(20px);
+      
+    }
+
+

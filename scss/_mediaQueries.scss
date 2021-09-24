@@ -1,0 +1,162 @@
+/* MediaQueries */
+/* Mapa */
+$headdings:(
+    h1: 4em,
+    h2: 3em,
+    h3: 2em,
+    h4: 1em,
+    h5: 0.75em,
+    h6: 0.35em,
+);
+ $h1: map-get($headdings, h1);
+ $h2: map-get($headdings, h2);
+ $h3: map-get($headdings, h3);
+ $h4: map-get($headdings, h4);
+ $h5: map-get($headdings, h5);
+ $h6: map-get($headdings, h6);
+ @media only screen and (min-width:160px  ) and (max-width:240px){
+    .titulo h1{
+        
+        font-size: $h4;
+      }
+    .menu {
+        margin-left: 0px;
+    }
+    .menu a{
+        
+        font-size: $h5;
+      
+    }
+    .items {
+        width: 4rem;
+    }   
+    .Productos-destacados h3{
+        font-size: $h3;
+       
+    }
+    .Productos-destacados-card-titulo h5{
+        font-size: $h4;
+    }
+    .Productos-destacados-card-parrafo p {
+        color: grey;
+        margin-top: 10px;
+    }
+   
+    .titulowh h6{
+        
+       
+        font-size: $h6;
+    }
+    .card{
+        width: 9em;
+        height: 30em;
+        padding-right: 2px;
+        
+   
+    }
+    .columnas-card{
+    
+        display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-content: stard;
+        
+
+    } 
+    }
+    @media only screen and (min-width: 241px)and (max-width:359px){
+        .card{
+            width: 12em;
+            height: 30em;
+            padding-right: 2px;
+            
+       
+        }
+        .columnas-card{
+        
+            display: flex;
+        flex-direction: column;
+        padding: 0px;
+        flex-wrap: wrap;
+        align-content: stard;
+            
+    
+        } 
+
+        
+    }
+    
+@media only screen and (min-width:360px)and (max-width:520px){
+    .titulo h1{
+        
+        font-size: $h3;
+      }
+    .menu {
+        margin-left: 0px;
+    }
+    .card{
+        width: 18em;
+        height: 38em;
+        padding-right: 2px;
+        
+   
+    }
+        
+    }
+    
+        .contenido{
+            display: flex;
+            justify-content: flex-start;
+            
+            flex-direction: wrap;
+        }
+       .columnas-Info p, .columnas-card a{
+           font-size: 0.5em ;
+       
+       
+.titulosGrande{
+    font-size: 1.25em;
+   
+}
+.titulos{
+    font-size: 1em;
+    
+
+}
+
+.textoinformativo h5{
+    font-size: 1em;
+   
+    }
+}
+
+@media only screen and (min-width:749px) and (max-width:899px){
+    .columnas-card{
+        
+        display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-content: center
+        
+
+    } 
+
+            
+        }
+@media only screen and (min-width:749px) and (max-width:899px){
+    .card{
+    width: 42vw;
+    height: 100vh;
+    }
+     .info-contacto{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (min-width:900px) {
+    
+     .info-contacto a{
+        font-size: 3.5em;
+    }
+}

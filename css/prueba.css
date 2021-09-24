@@ -1,0 +1,444 @@
+@charset "UTF-8";
+/* Colores de la página */
+body {
+  background-color: #f3eeea; }
+
+header {
+  background-color: #9e8e94; }
+
+.encabezado-titulo h1 {
+  color: #ef8225c4; }
+
+.encabezado-menu a {
+  color: #f7d097; }
+
+.encabezado-menu a:hover {
+  background-color: #eea435; }
+
+h3 {
+  color: #ffa262; }
+
+footer {
+  background-color: #9e8e94; }
+
+.tituloProductos {
+  color: #d69b43c9; }
+
+.Productos-destacados-card-titulo h5 {
+  color: #d69b43c9; }
+
+.Productos-destacados-card-parrafo p {
+  color: grey; }
+
+.title-cards {
+  color: #ffa262; }
+
+.card {
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2); }
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); }
+
+.card .contenido-card h3 {
+  color: #7a7a7a; }
+
+.card .contenido-card p {
+  color: #6a6a6a; }
+
+.card .contenido-card a {
+  color: #2fb4cc;
+  border: 1px solid #cc832f; }
+
+.card .contenido-card a:hover {
+  background: #dab988;
+  color: #fff; }
+
+.boton {
+  background-color: #f59b23d6;
+  border-color: #cc8226; }
+
+/* tipografias */
+.titulo h1 {
+  font-family: 'Signika', sans-serif; }
+
+h2 {
+  font-family: 'Lato', sans-serif; }
+
+h3 {
+  font-family: 'Lato', sans-serif; }
+
+/* Este archivo lo voy a utilizar para definir extends y mixins */
+.dimensionescard, .encabezado-logo img {
+  width: 100%;
+  height: 100%; }
+
+.title-cards {
+  padding: 20px; }
+
+.col-12 {
+  padding: 0px; }
+
+.formulario {
+  padding: 20px; }
+
+/* Estilos comunes entre las secciones y index */
+/* Mapa */
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.encabezado-logo {
+  width: 100px;
+  height: 100px; }
+
+.encabezado-titulo h1 {
+  text-align: center;
+  font-size: 4em; }
+
+.carrito-imagen {
+  margin-top: 2em; }
+
+.dropdown-container {
+  position: relative; }
+
+.dropdown-container ul {
+  position: absolute;
+  right: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  width: 23vw;
+  transition: all 1s;
+  background-color: #d8cdd8; }
+
+.dropdown-container ul.show {
+  max-height: 400px; }
+
+.dropdown-container td {
+  padding-right: 10px; }
+
+.encabezado-carrito li {
+  text-decoration: none; }
+
+.encabezado-carrito td {
+  padding-right: 10px; }
+
+.encabezado-menu {
+  width: 100%;
+  align-items: center;
+  margin-left: 11px; }
+
+.encabezado-menu a {
+  text-decoration: none;
+  font-size: 1.5em; }
+
+.contenido-footer {
+  height: auto; }
+
+.columnas {
+  height: 15vh; }
+
+.titulosGrande {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  color: #f5e2b6; }
+
+.titulos {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  color: #f5e2b6; }
+
+.textoinformativo h5 {
+  font-size: 1em;
+  color: #f5e2b6;
+  padding-left: 35px; }
+
+.contenido {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row; }
+
+.imagenes {
+  width: 6vw;
+  height: 9vh; }
+
+.imagenes img {
+  width: 100%;
+  height: 100%; }
+
+p, a {
+  font-size: 1.15em;
+  color: #f5e2b6; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  color: rgba(255, 166, 0, 0.664); }
+
+.columnas-Pago {
+  height: 10vh; }
+
+.columnas-Info {
+  height: 10vh; }
+
+/* Estilo propio de las secciones*/
+/* Mapa */
+/* Imagen de las portadas */
+.main-portada-imagen img {
+  width: 100%;
+  height: auto; }
+
+/* Titulo de las secciones */
+.tituloProductos h2 {
+  display: flex;
+  justify-content: center; }
+
+/*Cards*/
+.columnas-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 50px; }
+
+.card {
+  width: 18em;
+  height: 40em;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 400ms ease-out;
+  cursor: default; }
+
+.card:hover {
+  transform: translateY(-3%); }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center; }
+
+.boton-estilo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+/* Estilo propio del index */
+.main-portada-video video {
+  width: 100%;
+  height: 245px; }
+
+.col-12 {
+  padding: 0px; }
+
+.main-productos-productosDestacadosTodos {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 192px; }
+
+.main-productos-productosDestacados-titulo h3 {
+  font-size: 50px;
+  text-align: center; }
+
+.items {
+  width: 8rem; }
+
+.cardDestacados {
+  width: 18em;
+  height: 34em; }
+
+.card-body {
+  height: 200px; }
+
+.cardDestacados img {
+  width: 100%;
+  height: 100%; }
+
+.Productos-destacados-card-parrafo p {
+  margin-top: 25px; }
+
+/* Estilo de seccion Contacto#ffc107c9 */
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: sans-serif; }
+
+.formulario {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px 1px black;
+  position: relative; }
+
+.formulario_titulo {
+  text-align: center;
+  margin-top: 0;
+  color: #ff6e07; }
+
+.formulario_input, .formulario_label, .formulario_submit {
+  display: block;
+  width: 100%;
+  font-size: 1.3em; }
+
+.formulario_input {
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.09);
+  border: 1px solid #f9d291;
+  margin-bottom: 40px; }
+
+.formulario_input:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.7); }
+
+.formulario_input:focus + .formulario_label {
+  margin-top: -135px; }
+
+.formulario_label {
+  padding-left: 15px;
+  position: absolute;
+  margin-top: -85px;
+  z-index: -20;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s; }
+
+.formulario_submit {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none; }
+
+button {
+  background-color: #ecbb70;
+  border-color: #dcb456;
+  color: #00000061; }
+
+/* Estilo de pagina de error */
+.container-404 {
+  background: #f3eeea;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif; }
+
+img {
+  width: 50%; }
+
+.container-404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center; }
+
+h1 {
+  color: #e9eef5;
+  font-size: 20px;
+  padding: 20px; }
+
+.boton-404 {
+  padding: 13px 30px;
+  border-radius: 15px;
+  border: none;
+  background: #f0af4d;
+  color: white; }
+
+@media screen and (max-width: 630px) {
+  h1 {
+    font-size: 16px; } }
+
+/* MediaQueries */
+/* Mapa */
+@media only screen and (min-width: 160px) and (max-width: 240px) {
+  .titulo h1 {
+    font-size: 1em; }
+  .menu {
+    margin-left: 0px; }
+  .menu a {
+    font-size: 0.75em; }
+  .items {
+    width: 4rem; }
+  .Productos-destacados h3 {
+    font-size: 2em; }
+  .Productos-destacados-card-titulo h5 {
+    font-size: 1em; }
+  .Productos-destacados-card-parrafo p {
+    color: grey;
+    margin-top: 10px; }
+  .titulowh h6 {
+    font-size: 0.35em; }
+  .card {
+    width: 9em;
+    height: 30em;
+    padding-right: 2px; }
+  .columnas-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-content: stard; } }
+
+@media only screen and (min-width: 241px) and (max-width: 359px) {
+  .card {
+    width: 12em;
+    height: 30em;
+    padding-right: 2px; }
+  .columnas-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-content: stard; } }
+
+@media only screen and (min-width: 360px) and (max-width: 520px) {
+  .titulo h1 {
+    font-size: 2em; }
+  .menu {
+    margin-left: 0px; }
+  .card {
+    width: 18em;
+    height: 38em;
+    padding-right: 2px; } }
+
+.contenido {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: wrap; }
+
+.columnas-Info p, .columnas-card a {
+  font-size: 0.5em; }
+  .columnas-Info p .titulosGrande, .columnas-card a .titulosGrande {
+    font-size: 1.25em; }
+  .columnas-Info p .titulos, .columnas-card a .titulos {
+    font-size: 1em; }
+  .columnas-Info p .textoinformativo h5, .columnas-card a .textoinformativo h5 {
+    font-size: 1em; }
+
+@media only screen and (min-width: 749px) and (max-width: 899px) {
+  .columnas-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-content: center; } }
+
+@media only screen and (min-width: 749px) and (max-width: 899px) {
+  .card {
+    width: 42vw;
+    height: 100vh; }
+  .info-contacto {
+    font-size: 1.5em; } }
+
+@media only screen and (min-width: 900px) {
+  .info-contacto a {
+    font-size: 3.5em; } }
