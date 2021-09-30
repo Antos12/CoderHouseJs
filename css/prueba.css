@@ -108,7 +108,7 @@ h3 {
   max-height: 0px;
   overflow: hidden;
   width: 23vw;
-  transition: all 1s;
+  /* transition: all 1s; */
   background-color: #d8cdd8; }
 
 .dropdown-container ul.show {
@@ -196,6 +196,9 @@ a:hover {
 .tituloProductos h2 {
   display: flex;
   justify-content: center; }
+
+.encabezado-logIn {
+  margin-top: 3em; }
 
 /*Cards*/
 .columnas-card {
