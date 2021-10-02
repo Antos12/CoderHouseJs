@@ -15,7 +15,7 @@ function compararDatosJson(usuario,contrasenia){
        if (usuario==datosUsuario1JSON && contrasenia== datosContrasenia1JSON){
            alert("Has ingresado")
        } else {
-           alert("Los datos ingresados son incorrectos")
+           alert("No es un cliente registrado porfavor registrese")
        }
       
    })
